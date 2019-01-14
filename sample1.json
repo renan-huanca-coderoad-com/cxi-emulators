@@ -1,0 +1,62 @@
+ {
+   "contentFormat": "quantity",
+   "transactionId": null,
+   "status": "available",
+   "bizStep": "urn:epcglobal:cbv:bizstep:picking",
+   "bizLocation": "CHE041",
+   "extensions": {
+     "deliveryPosCode": "ZURICH_SS",
+     "deliveryPosLevel": "floor",
+     "deliveryPosX": 310.5750636132315,
+     "deliveryPosY": 516.9440203562341,
+     "deliveryPosZ": -500,
+     "requestingStaff": "root"
+   },
+   "containers": [
+     {
+       "content": [
+         {
+           "format": "quantity",
+           "gtin": "01247788882630",
+           "quantity": 1
+         },
+         {
+           "format": "quantity",
+           "gtin": "00841608108031",
+           "quantity": 4
+         },
+         {
+           "format": "quantity",
+           "gtin": "00841608108032",
+           "quantity": 4
+         },
+         {
+           "format": "quantity",
+           "gtin": "00841608108033",
+           "quantity": 4
+         },
+         {
+           "format": "quantity",
+           "gtin": "00841608108034",
+           "quantity": 4
+         },
+         {
+           "format": "quantity",
+           "gtin": "00841608108035",
+           "quantity": 4
+         },
+         {
+           "format": "quantity",
+           "gtin": "00841608108036",
+           "quantity": 4
+         },
+         {
+           "format": "quantity",
+           "gtin": "00841608108037",
+           "quantity": 4
+         }
+       ]
+     }
+   ]
+ }
+

@@ -1,0 +1,31 @@
+{
+  "contentFormat": "quantity",
+  "transactionId": "searchnpick-8556b7756e9a3cca-1547061612663",
+  "status": "available",
+  "bizStep": "urn:epcglobal:cbv:bizstep:picking",
+  "bizLocation": "CHE041",
+  "extensions": {
+    "deliveryPosCode": "ZURICH_SS",
+    "deliveryPosLevel": "floor",
+    "deliveryPosX": 310.5750636132315,
+    "deliveryPosY": 516.9440203562341,
+    "deliveryPosZ": -500,
+    "requestingStaff": "root"
+  },
+  "containers": [
+    {
+      "content": [
+        {
+          "format": "quantity",
+          "gtin": "01247788882629",
+          "quantity": 1
+        },
+        {
+          "format": "quantity",
+          "gtin": "00841608108008",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
+}
