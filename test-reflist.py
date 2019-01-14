@@ -4,7 +4,9 @@ import uuid
 import time
 import sys
 
-url = 'http://10.100.1.79:8081/supply-chain-api/rest/supply_chain/reference_lists'
+url = "%s/supply-chain-api/rest/supply_chain/reference_lists" % sys.argv[1]
+
+print("url: %s" % url)
 
 headers = {
     "Accept-Encoding": "gzip, deflate",
@@ -14,7 +16,7 @@ headers = {
 }
 
 
-with open(sys.argv[1]) as json_file:
+with open(sys.argv[2]) as json_file:
     data = json.load(json_file)
     for x in range(1, 2):
         data["transactionId"] = "searchnpick-%s" % uuid.uuid4()
