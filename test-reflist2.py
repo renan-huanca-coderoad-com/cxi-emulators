@@ -3,6 +3,7 @@ import json
 import uuid
 import time
 import sys
+from gtin import GTIN
 
 url = "%s/supply-chain-api/rest/supply_chain/reference_lists" % sys.argv[1]
 
@@ -30,7 +31,7 @@ elements = json.loads('[]'); # [max_elements]
 for x in range(0, max_elements):
      elements.append({
        "format": "quantity",
-       "gtin": "%014d" % (x + 1),
+       "gtin": "%s" % str(GTIN(raw=("%014d" % (x + 1)))),
        "quantity": 1
      })
 
@@ -46,8 +47,8 @@ for x in range(1, 2):
 
     print(data)
 
-    response = requests.put(url, data=json.dumps(data), headers=headers)
-    end = time.time()
-
-    print("status: %s time: %0.3f" % (response.status_code, (end - start)))
-    print("refrence id: %s" % response.text)
+    # response = requests.put(url, data=json.dumps(data), headers=headers)
+    # end = time.time()
+    #
+    # print("status: %s time: %0.3f" % (response.status_code, (end - start)))
+    # print("refrence id: %s" % response.text)
