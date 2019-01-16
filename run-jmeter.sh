@@ -17,10 +17,11 @@ echo
 
 echo "cleaning results folder..."
 rm -rf results
+rm -rf cxiapi.jtl
 
 echo "running jmeter on $jmeter_path"
 echo
-#                   ./jmeter.sh -n -t ${1} -l ../test1/vizix.jtl -e -o ../test2/
-cmd="$jmeter_path/bin/jmeter.sh -n -Jpage=$server -t $test_plan -l vizix.jtl -e -o results/"
+
+cmd="$jmeter_path/bin/jmeter.sh -n -JSERVER=$server -t $test_plan -l cxiapi.jtl -e -o results/"
 echo "$cmd"
 $cmd

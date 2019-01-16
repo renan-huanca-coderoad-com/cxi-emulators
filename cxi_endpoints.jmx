@@ -15,7 +15,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="page" elementType="Argument">
             <stringProp name="Argument.name">page</stringProp>
-            <stringProp name="Argument.value">staging.vizix.io</stringProp>
+            <stringProp name="Argument.value">${__P(SERVER,staging.vizix.io)} </stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">dev.vizix.io / dp-red-preprod.shopcx.io</stringProp>
           </elementProp>
