@@ -8,7 +8,7 @@ else
 fi
 
 test_plan="cxi_endpoints.jmx"
-server="staging.vizix.io"
+server="dev.vizix.io"
 
 echo
 echo "test plan: [$test_plan]"
