@@ -7417,7 +7417,7 @@ null&#xd;
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">statemachine-api-configuration/rest/configuration/locations/10191/maps</stringProp>
+          <stringProp name="HTTPSampler.path">statemachine-api-configuration/rest/configuration/locations/26/maps</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -7541,7 +7541,7 @@ null&#xd;
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">statemachine-api-configuration/rest/configuration/locations/10191/maps/matrices</stringProp>
+          <stringProp name="HTTPSampler.path">statemachine-api-configuration/rest/configuration/locations/26/maps/matrices</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
