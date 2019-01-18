@@ -8288,7 +8288,21 @@ null&#xd;
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{}</stringProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;filters&quot;: [&#xd;
+    {&#xd;
+      &quot;property&quot;: &quot;transactionId&quot;,&#xd;
+      &quot;operator&quot;: &quot;EQ&quot;,&#xd;
+      &quot;values&quot;: [&#xd;
+        &quot;222BD00164094&quot;&#xd;
+      ]&#xd;
+    }&#xd;
+  ],&#xd;
+  &quot;order&quot;: {&#xd;
+    &quot;property&quot;: &quot;creationTime&quot;,&#xd;
+    &quot;direction&quot;: &quot;DESC&quot;&#xd;
+  }&#xd;
+}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
