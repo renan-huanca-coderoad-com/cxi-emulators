@@ -13,7 +13,7 @@
 #         server="staging.vizix.io"
 #
 # 5. execute ./run-test.sh
-#
+# 6. results of test will be located on results/ folder
 
 if [[ -z "${JMETER_HOME}" ]]; then
   echo "Please set JMETER_HOME system env variable"
