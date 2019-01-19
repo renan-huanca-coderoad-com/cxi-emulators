@@ -300,23 +300,30 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  &quot;filters&quot;: [&#xd;
-    {&#xd;
-      &quot;property&quot;: &quot;type&quot;,&#xd;
-      &quot;operator&quot;: &quot;EQ&quot;,&#xd;
-      &quot;values&quot;: [&#xd;
-        &quot;ObjectEvent&quot;&#xd;
-      ]&#xd;
-    }&#xd;
-  ],&#xd;
-  &quot;order&quot;: {&#xd;
-    &quot;property&quot;: &quot;eventTime&quot;,&#xd;
-    &quot;direction&quot;: &quot;DESC&quot;&#xd;
-  },&#xd;
-  &quot;pagination&quot;: {&#xd;
-    &quot;documents&quot;: 20,&#xd;
-    &quot;page&quot;: 0&#xd;
-  }&#xd;
+   &quot;filters&quot;:[&#xd;
+      {&#xd;
+         &quot;property&quot;:&quot;type&quot;,&#xd;
+         &quot;operator&quot;:&quot;EQ&quot;,&#xd;
+         &quot;values&quot;:[&#xd;
+            &quot;ObjectEvent&quot;&#xd;
+         ]&#xd;
+      },&#xd;
+      {&#xd;
+         &quot;property&quot;:&quot;bizStep&quot;,&#xd;
+         &quot;operator&quot;:&quot;EQ&quot;,&#xd;
+         &quot;values&quot;:[&#xd;
+            &quot;urn:epcglobal:cbv:bizstep:cycle_counting&quot;&#xd;
+         ]&#xd;
+      }&#xd;
+   ],&#xd;
+   &quot;order&quot;:{&#xd;
+      &quot;property&quot;:&quot;eventTime&quot;,&#xd;
+      &quot;direction&quot;:&quot;DESC&quot;&#xd;
+   },&#xd;
+   &quot;pagination&quot;:{&#xd;
+      &quot;documents&quot;:20,&#xd;
+      &quot;page&quot;:0&#xd;
+   }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
