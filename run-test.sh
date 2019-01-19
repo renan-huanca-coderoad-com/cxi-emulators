@@ -1,5 +1,20 @@
 #!/bin/bash
 
+# README FIRST
+# ============
+#
+# 1. Download jmeter form https://jmeter.apache.org/download_jmeter.cgi
+# 2. Unpackage it to any folder
+# 3. set JMETER_HOME env variable with the path were jmeter was put.
+# 4. in this script (run-test.sh) set the server variable to the
+#    address of the server you want to test.
+#    i.e.:
+#         server="dev.vizix.io"
+#         server="staging.vizix.io"
+#
+# 5. execute ./run-test.sh
+#
+
 if [[ -z "${JMETER_HOME}" ]]; then
   echo "Please set JMETER_HOME system env variable"
   exit 0
