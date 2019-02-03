@@ -127,7 +127,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/statemachine-api-status-rest/rest/statuses/location/level/premise/code/CHE041</stringProp>
+          <stringProp name="HTTPSampler.path">/statemachine-api-status-rest/rest/statuses/location/level/organization/code/RED</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -760,8 +760,6 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
     &quot;order&quot;: {&#xd;
-      &quot;property&quot;: &quot;creationTime&quot;,&#xd;
-      &quot;direction&quot;: &quot;ASC&quot;&#xd;
     },&#xd;
     &quot;filters&quot;: [{&#xd;
       &quot;property&quot;: &quot;bizStep&quot;,&#xd;
